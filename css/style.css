@@ -7,7 +7,22 @@
     text-decoration: none;
 }
 
+body{
+   
+    background-image: url("/storage/img/placeYourImageHere0.png");
+    /* Ajusta el tamaño de la imagen para cubrir completamente el área del cuerpo */
+    background-size: cover;
+    /* Centra la imagen en el área del cuerpo */
+    background-position: center;
+    position: relative;
+
+    
+    
+
+}
+
 header{
+  
     width: 100%;
     height: 120px;
     display: flex;
@@ -15,13 +30,14 @@ header{
  justify-content: space-around;  
 text-decoration: none;
 
-background-color: gray;
+
 }
 
 .left{
    
   display: flex;
     gap: 50px;
+   
     align-items: center;
    
     
@@ -33,14 +49,13 @@ background-color: gray;
     display: flex;
     align-items: center;
     gap: 50px;
-   
-
-
+    
 }
 
 .center{
     display: flex;
     align-items: center;
+    
 }
 
 .home{
@@ -53,7 +68,7 @@ background-color: gray;
 height: 890px;
     display:flex;
     justify-content: center;
-    background-color: gray;
+   
     
   padding-bottom: 70px;
    gap: 70px;
@@ -65,8 +80,8 @@ height: 890px;
 
 .primeraImagen{
     display: flex;
-    
-    height: 600px;
+    width: 600px;
+    height: auto;
     align-self: center;
   
 
@@ -79,13 +94,16 @@ height: 890px;
     display: flex;
    align-self: center;
  flex-direction: column;
+ font-size: 30px;
+    font-family: "Roboto Slab", serif;
 
  
 }
 .contactText{
     color: #e58f00;
     display: flex;
-    
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
 }
 
 .contactP{
