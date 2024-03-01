@@ -312,3 +312,55 @@ color: #ffff
 
 
 }
+.page7{
+    width: 100%;
+    background-color: #17171e;
+    height: 200vh;
+   
+
+
+
+}
+.hPage7{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 60PX;
+   
+
+
+}
+.tPage7{
+    display: flex;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    gap: 20px;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #e58f00;
+    margin-top: 30px;
+gap:20px
+
+
+}
+
+.iPage7{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    
+}
+.pPage7{
+    display: flex;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    width: 100%;
+   justify-content: space-around;
+
+}
