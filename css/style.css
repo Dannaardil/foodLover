@@ -6,3 +6,121 @@
 
     text-decoration: none;
 }
+
+
+.page1{
+    width: 100%;
+    height: 100vh;
+   
+    background-image: url("/storage/img/placeYourImageHere0.png");
+   background-size: cover;
+  
+   
+   
+}
+.fondo{
+    background-color: #323239d5;
+    height: 100vh;
+    background-position: center;
+}
+.header1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+ 
+}
+.left{
+    display:flex;
+   gap: 30px;
+   font-family: "Roboto Slab", serif;
+   font-weight: bold;
+  
+  
+}
+.right{
+    display: flex;
+    gap:30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+.homePage1{
+    color: #e58f00;
+    font-weight: bold;
+   
+}
+.aboutPage1{
+    color: #ffff;
+}
+.menusPage1{
+    color: #ffff;
+}
+.offerPage1{
+    color: #ffff;
+}
+
+.galleryPage1{
+    color: #ffff;
+}
+.contactPage1{
+    color: #ffff;
+
+}
+.blogPage1{
+    color: white;
+}
+
+.center1{
+    display: flex;
+    gap: 30px
+}
+
+.Tpage1{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-self: center;
+    align-items: left;
+    gap:15px
+}
+.Ipage1{
+    display: flex;
+  width: 90vh;
+    align-self: center;
+    justify-self: center;
+    margin-left: 30px;
+
+}
+.hPage1{
+    color: #e58f00;
+    font-family: "Roboto Slab", serif;
+    font-size: 60px;
+
+}
+.pPage1{
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 20px
+}
+.bPage1{
+    display: flex;
+    color: #323239;
+    width: 40%;
+   font-family: "Roboto Slab", serif;
+   font-weight: bold;
+   font-size: 25px;
+    background-color: #e58f00;
+    padding: 15px;
+    border: #e58f00;
+    border-radius: 5px;
+  
+    justify-content: center;
+}
+
+
+
+
+
+
+
